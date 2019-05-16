@@ -190,6 +190,12 @@ mod gen {
                 gamepad: {
                     enabled: bool,
                 },
+                mediadevices: {
+                    #[serde(default)]
+                    enabled: bool,
+                    #[serde(default)]
+                    mock: bool,
+                },
                 microdata: {
                     testing: {
                         enabled: bool,
